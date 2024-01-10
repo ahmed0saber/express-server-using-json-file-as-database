@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2",
+    "username": "user2",
+    "fullname": "User Two",
+    "email": "user2@example.com",
+    "age": 30,
+    "gender": "Male"
+  },
+  {
+    "id": "3",
+    "username": "user3",
+    "fullname": "User Three",
+    "email": "user3@example.com",
+    "age": 20,
+    "gender": "Female"
+  },
+  {
+    "id": "4",
+    "username": "user4",
+    "fullname": "User Four",
+    "email": "user4@example.com",
+    "age": 22,
+    "gender": "Male"
+  },
+  {
+    "id": "7",
+    "username": "user7",
+    "fullname": "User Seven",
+    "email": "user7@example.com",
+    "age": 27,
+    "gender": "Female"
+  },
+  {
+    "id": "8",
+    "username": "user8",
+    "fullname": "User Eight",
+    "email": "user8@example.com",
+    "age": 31,
+    "gender": "Male"
+  },
+  {
+    "id": "9",
+    "username": "user9",
+    "fullname": "User Nine",
+    "email": "user9@example.com",
+    "age": 24,
+    "gender": "Female"
+  }
+]

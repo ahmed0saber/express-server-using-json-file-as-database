@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Document</title>
+    <link rel='stylesheet' href='./style.css'>
+</head>
+
+<body>
+    <div class="container">
+        <button id="getAllUsersBtn">Get All Users</button>
+        <div>
+            <input type="text" id="userId" placeholder="Enter User ID">
+            <button id="getUserByIdBtn">Get User By ID</button>
+        </div>
+        <div id="result"></div>
+        <div>
+            <input type="text" id="searchQuery" placeholder="Search">
+            <input type="number" id="filterMinAge" placeholder="Min Age">
+            <input type="number" id="filterMaxAge" placeholder="Max Age">
+            <select id="filterGender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="all">All</option>
+            </select>
+            <button id="filterUsersBtn">Filter Users</button>
+        </div>
+    </div>
+</body>
+<script src='./script.js'></script>
+
+</html>

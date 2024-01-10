@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Document</title>
+    <link rel='stylesheet' href='../style.css'>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h2>All Users</h2>
+            <ul id="userList"></ul>
+        </div>
+        <div>
+            <h2>Add New User</h2>
+            <form id="addUserForm">
+                <input type="text" id="username" name="username" placeholder="Username" required>
+                <input type="text" id="fullname" name="fullname" placeholder="Full Name" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="number" id="age" name="age" placeholder="Age" required min="0">
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                <button type="submit">Add User</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src='./script.js'></script>
+
+</html>
